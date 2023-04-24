@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cats-api
+  datasource:
+    url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:5444/cats-api
+    username: admin
+    password: admin
+
+
